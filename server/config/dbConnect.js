@@ -14,8 +14,7 @@ const dbConnect = async () => {
         
 
     } catch (error) {
-        console.log("Db connection is failed")
-        throw new Error(error)
+        console.log(`Db connection is failed and message error: ${error}`)
     }
 }
 

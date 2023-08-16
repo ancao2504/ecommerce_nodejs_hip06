@@ -1,1 +1,5 @@
 npm i express dotenv express-async-handler jsonwebtoken mogoose bcrypt
+
+How to generate and set `JWT_SECRET` and `JWT_EXPIRATION_TIME` in express
+
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'));"
